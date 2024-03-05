@@ -1,43 +1,70 @@
-# Getting Started with Create React App
+# React Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img src="./src/assets/images/quiz-answer.png" width="100%">
 
-## Available Scripts
+## About The Project
 
-In the project directory, you can run:
+The React Quiz app is a fun and informative web application designed to test and expand your knowledge of React and its ecosystem. Through a series of carefully crafted questions ranging from basics to advanced concepts, users can gauge their understanding of React, learn new aspects, and solidify their knowledge in a fun, interactive way.
 
-### `yarn start`
+### Quiz Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Diverse Question Set**: Features a wide range of questions covering fundamental and advanced topics in React.
+- **Immediate Feedback**: Receive instant feedback on your answers to understand your strengths and areas for improvement.
+- **Points System**: Earn points for correct answers, encouraging a competitive and rewarding learning experience.
+- **Educational**: Designed not just as a quiz but as a learning tool to deepen your understanding of React.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Built With
 
-### `yarn test`
+- React.js
+- TypeScript
+- json-server for simulating a backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `yarn build`
+Follow these simple steps to get your local copy up and running.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `yarn eject`
+### Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+git clone https://github.com/your-github-username/typescript-react-quiz.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Navigate to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+cd typescript-react-quiz
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Install dependencies
+
+```sh
+npm install
+```
+
+## Running the application
+
+### Start the React application
+
+```sh
+npm start
+```
+
+### Launch the mock backend server
+
+```sh
+npm run server
+```
+
+This simulates a backend server using json-server, providing a realistic quiz data environment.
 
 ## Learn More
 
